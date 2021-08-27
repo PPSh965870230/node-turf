@@ -1,0 +1,11 @@
+{
+  ".html": "text/html;charset=utf-8;",
+  ".css": "text/css",
+  ".js": "application/javascript",
+  ".json": "application/json",
+  ".ico": "image/x-icon",
+  ".png": "image/png",
+  ".jpeg": "image/jpeg",
+  ".jpg": "image/jpeg",
+  ".wbmp": "image/vnd.wap.wbmp"
+}

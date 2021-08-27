@@ -1,0 +1,184 @@
+#node-turf-app {
+}
+
+/*修改 vuetify 默认样式 */
+.turf-page-header {
+    background-color: #fff !important;
+    border-bottom: 1px solid rgba(0, 0, 0, .12) !important;
+    left: 0 !important;
+}
+
+.turf-page-header-search {
+    height: 36px;
+    width: 280px;
+}
+
+.turf-page-header-search .v-input__slot {
+    height: 0 !important;
+    min-height: 36px !important;
+}
+
+.turf-page-header-search .v-input__append-inner {
+    margin-top: 6px !important;
+}
+
+.turf-page-header-search .v-text-field--outlined .v-label {
+    top: 8px !important;
+}
+
+.turf-page-header-search .v-text-field .v-input__append-inner, .v-text-field .v-input__prepend-inner {
+    margin-top: 5px;
+}
+
+.turf-page-header-search .v-label.v-label--active {
+    top: 16px !important;
+}
+
+.turf-page-header-division {
+    width: 2px;
+    height: 18px;
+    background-color: rgba(0, 0, 0, .12);
+    margin: auto 20px;
+}
+
+.turf-page-header-btn {
+    padding: 0 10px !important;
+}
+
+.turf-page-header-btn.theme--light.v-btn.v-btn--has-bg {
+    background-color: #fff;
+}
+
+.turf-page-header-btn.v-btn--is-elevated {
+    box-shadow: none;
+}
+
+/*v-label theme--light*/
+
+.turf-page-drawer {
+    top: 68px !important;
+    max-height: calc(100% - 68px) !important;
+}
+
+.turf-page-drawer.v-navigation-drawer--is-mobile {
+    top: 0 !important;
+    max-height: 100% !important;
+}
+
+.turf-page-main {
+    /*padding: 64px 300px !important;*/
+    margin-bottom: 2rem;
+}
+
+.turf-page-main-content {
+    padding: 10px 30px;
+}
+
+.turf-page-bottom-sheet {
+    position: relative;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+
+.msg-link {
+    color: rgb(92, 114, 145);
+}
+
+.msg-link:hover {
+    text-decoration: none;
+}
+
+/*.turf-page-bottom-sheet.theme--light.v-sheet {*/
+/*    color: rgb(92, 114, 145);*/
+/*    background-color: rgb(234, 247, 247);*/
+/*}*/
+.turf-page-cookies-motion-confirm {
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+}
+
+.turf-page-cookies-motion-confirm .cc-btn {
+    margin: 0;
+    padding: .8em 1.8em;
+    height: 100%;
+    font-weight: bold;
+}
+
+.turf-page-cookies-motion-confirm .cc-deny {
+    color: rgb(92, 114, 145);
+    text-decoration: underline;
+}
+
+.cc-deny:hover {
+    text-decoration: none;
+}
+
+.turf-page-cookies-motion-confirm .cc-allow {
+    color: rgb(255, 255, 255);
+    border-color: transparent;
+    background-color: rgba(25, 118, 210, 0.9);
+    text-decoration: none;
+}
+
+.cc-allow:hover {
+    background-color: rgba(25, 118, 210, 1);
+}
+
+.turf-page-motion-msg {
+    margin-left: 1em;
+    margin-right: 1em;
+    display: block;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    max-width: 100%;
+}
+
+.turf-page-bottom-sheet-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.turf-page-go-top {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.turf-page-go-top.theme--light.v-btn.v-btn--has-bg {
+    background-color: rgba(25, 118, 210, 1) !important;
+}
+
+.pop-h4 {
+    /*line-height: 2.2em;*/
+    padding: 1em 1em 0 1em;
+    font-size: 12px;
+}
+
+.pop-list .v-list-item {
+    min-height: unset;
+    cursor: pointer;
+    margin: 5px auto;
+    border-radius: 3px;
+}
+
+.pop-list .v-list-item:hover {
+    background-color: rgba(0, 0, 0, .08);
+}
+
+.active-pop-list {
+    background-color: rgba(0, 0, 0, .24) !important;
+}
+
+.pop-list .v-list-item__title {
+    font-size: 14px;
+    padding: 5px 0;
+}
+
+.v-menu__content.theme--light.v-menu__content--fixed.menuable__content__active {
+    background-color: #fff;
+}
