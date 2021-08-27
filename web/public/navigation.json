@@ -1,0 +1,42 @@
+{
+  "start": "start",
+  "navTree": [
+    {
+      "id": "measurement",
+      "children": [
+        {
+          "id": "along",
+          "path": "along"
+        },
+        {
+          "id": "along",
+          "path": "along"
+        },
+        {
+          "id": "along",
+          "path": "along"
+        },
+        {
+          "id": "along",
+          "path": "along"
+        },
+        {
+          "id": "along",
+          "path": "along"
+        },
+        {
+          "id": "along",
+          "path": "along"
+        },
+        {
+          "id": "along",
+          "path": "along"
+        },
+        {
+          "id": "along",
+          "path": "along"
+        }
+      ]
+    }
+  ]
+}

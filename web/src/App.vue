@@ -4,17 +4,16 @@
         <page-header @changeNavDrawerShow="changeNavDrawerShow"></page-header>
 
         <v-navigation-drawer app v-model="showNavigationDraw" class="turf-page-drawer">
-            <v-list>
-                <v-list-item v-for="item in 100" :key="item" @click="getItem(item)">{{ item }}</v-list-item>
-            </v-list>
+            <v-treeview
+                    activatable
+                    open-all
+                    :items="items"
+            ></v-treeview>
         </v-navigation-drawer>
 
         <!--主页面-->
         <v-main class="turf-page-main" id="turf-main-page">
             <v-container class="turf-page-main-content">
-                <v-list>
-                    <v-list-item v-for="item in 100">{{item + content}}</v-list-item>
-                </v-list>
             </v-container>
         </v-main>
 
@@ -28,9 +27,9 @@
 
 <script>
 
-    import PageHeader from "./components/PageHeader";
-    import CookiesMotion from "./components/CookiesMotion";
-    import ReturnTop from "./components/ReturnTop";
+    import PageHeader from "./components/viewStructure/PageHeader";
+    import CookiesMotion from "./components/viewStructure/CookiesMotion";
+    import ReturnTop from "./components/viewStructure/ReturnTop";
 
     export default {
         name: "App",
@@ -39,6 +38,78 @@
             return {
                 showNavigationDraw: true,
                 content: "",
+                items: [
+                    {
+                        id: 1,
+                        name: 'Applications :',
+                        children: [
+                            {id: 2, name: 'Calendar : app'},
+                            {id: 3, name: 'Chrome : app'},
+                            {id: 4, name: 'Webstorm : app'},
+                        ],
+                    },
+                    {
+                        id: 5,
+                        name: 'Documents :',
+                        children: [
+                            {
+                                id: 6,
+                                name: 'vuetify :',
+                                children: [
+                                    {
+                                        id: 7,
+                                        name: 'src :',
+                                        children: [
+                                            {id: 8, name: 'index : ts'},
+                                            {id: 9, name: 'bootstrap : ts'},
+                                        ],
+                                    },
+                                ],
+                            },
+                            {
+                                id: 10,
+                                name: 'material2 :',
+                                children: [
+                                    {
+                                        id: 11,
+                                        name: 'src :',
+                                        children: [
+                                            {id: 12, name: 'v-btn : ts'},
+                                            {id: 13, name: 'v-card : ts'},
+                                            {id: 14, name: 'v-window : ts'},
+                                        ],
+                                    },
+                                ],
+                            },
+                        ],
+                    },
+                    {
+                        id: 15,
+                        name: 'Downloads :',
+                        children: [
+                            {id: 16, name: 'October : pdf'},
+                            {id: 17, name: 'November : pdf'},
+                            {id: 18, name: 'Tutorial : html'},
+                        ],
+                    },
+                    {
+                        id: 19,
+                        name: 'Videos :',
+                        children: [
+                            {
+                                id: 20,
+                                name: 'Tutorials :',
+                                children: [
+                                    {id: 21, name: 'Basic layouts : mp4'},
+                                    {id: 22, name: 'Advanced techniques : mp4'},
+                                    {id: 23, name: 'All about app : dir'},
+                                ],
+                            },
+                            {id: 24, name: 'Intro : mov'},
+                            {id: 25, name: 'Conference introduction : avi'},
+                        ],
+                    },
+                ],
             }
         },
         methods: {

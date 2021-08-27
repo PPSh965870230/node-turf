@@ -36,7 +36,6 @@
                 let _this = this;
                 let initScrollTop = document.documentElement.scrollTop || document.body.scrollTop;
                 _this.showGoToTopBtn = initScrollTop >= 200;
-console.log(initScrollTop)
                 window.onscroll = function () {
                     let scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
                     console.log(scrollTop);

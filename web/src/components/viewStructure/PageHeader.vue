@@ -129,7 +129,7 @@
             },
             // 跳转到github
             goToGitHub(){
-                window.open('');
+                window.open('https://github.com/chenli965870230/node-turf');
             },
         }
     }
