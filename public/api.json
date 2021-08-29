@@ -1,0 +1,70 @@
+[
+  {
+    "id": "HELPERS",
+    "name": "HELPERS"
+  },
+  {
+    "id": "MEASUREMENT",
+    "name": "MEASUREMENT"
+  },
+  {
+    "id": "COORDINATE MUTATION",
+    "name": "COORDINATE MUTATION"
+  },
+  {
+    "id": "TRANSFORMATION",
+    "name": "TRANSFORMATION"
+  },
+  {
+    "id": "FEATURE CONVERSION",
+    "name": "FEATURE CONVERSION"
+  },
+  {
+    "id": "MISC",
+    "name": "MISC"
+  },
+  {
+    "id": "RANDOM",
+    "name": "RANDOM"
+  },
+  {
+    "id": "DATA",
+    "name": "DATA"
+  },
+  {
+    "id": "INTERPOLATION",
+    "name": "INTERPOLATION"
+  },
+  {
+    "id": "JOINS",
+    "name": "JOINS"
+  },
+  {
+    "id": "GRIDS",
+    "name": "GRIDS"
+  },
+  {
+    "id": "CLASSIFICATION",
+    "name": "CLASSIFICATION"
+  },
+  {
+    "id": "AGGREGATION",
+    "name": "AGGREGATION"
+  },
+  {
+    "id": "META",
+    "name": "META"
+  },
+  {
+    "id": "ASSERTIONS",
+    "name": "ASSERTIONS"
+  },
+  {
+    "id": "BOOLEANS",
+    "name": "BOOLEANS"
+  },
+  {
+    "id": "UNIT CONVERSION",
+    "name": "UNIT CONVERSION"
+  }
+]

@@ -12,11 +12,12 @@
     "debug": "npm run doc-build && node --inspect-brk server/server.js"
   },
   "dependencies": {
+    "@turf/point-to-line-distance": "^6.3.0",
+    "@turf/turf": "^5.1.6",
     "core-js": "^3.6.5",
     "vue": "^2.6.11",
-    "vuetify": "^2.5.8",
-    "@turf/point-to-line-distance": "^6.3.0",
-    "@turf/turf": "^5.1.6"
+    "vue-router": "^3.5.2",
+    "vuetify": "^2.5.8"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",

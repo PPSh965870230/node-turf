@@ -1,5 +1,5 @@
 /*********必要配置*********/
-const mode = 'pkg'; // 运行模式，打包(pkg)、开发(development)
+const mode = 'development'; // 运行模式，打包(pkg)、开发(development)
 /*******必要配置结束*******/
 
 const fs = require('fs');

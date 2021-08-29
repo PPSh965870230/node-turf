@@ -45,6 +45,11 @@
     padding: 0 10px !important;
 }
 
+.turf-page-title-icon{
+    cursor: pointer;
+    user-select: none;
+}
+
 .turf-page-header-btn.theme--light.v-btn.v-btn--has-bg {
     background-color: #fff;
 }
@@ -60,9 +65,26 @@
     max-height: calc(100% - 68px) !important;
 }
 
+.turf-page-drawer.mobile-page-drawer .v-navigation-drawer__content {
+    margin-top: 56px;
+    height: calc(100% - 56px);
+}
+
 .turf-page-drawer.v-navigation-drawer--is-mobile {
     top: 0 !important;
     max-height: 100% !important;
+}
+
+.turf-page-drawer-title {
+    height: 56px;
+    line-height: 56px;
+    text-align: center;
+    font-size: 28px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, .12);
 }
 
 .turf-page-main {

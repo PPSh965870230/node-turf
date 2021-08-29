@@ -1,7 +1,7 @@
 /**
  * @router 处理路由数据
  */
-const resHead = require('../netStatCode/netStatCode');
+const resHead = require('../netStatCode');
 const helpers = require('../service/turfProcess/helpers');
 const transformation = require('../service/turfProcess/transformation');
 const measurement = require('../service/turfProcess/measurement');
